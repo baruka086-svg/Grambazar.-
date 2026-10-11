@@ -1,0 +1,1327 @@
+<!DOCTYPE html>
+<html lang="hi" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GramBazaar (ग्रामबाजार) - शहडोल के स्थानीय उत्पाद, अब आपके घर तक</title>
+  <meta name="description" content="शाहडोल, मध्य प्रदेश के स्थानीय और ग्रामीण उत्पाद सीधे स्थानीय विक्रेताओं से खरीदें। शुद्ध शहद, स्थानीय चावल, महुआ उत्पाद और हस्तशिल्प। WhatsApp पर आसान ऑर्डर।">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#F0F7F4',
+              100: '#D8ECE2',
+              200: '#B2D9C5',
+              500: '#2D6A4F',
+              700: '#1B4D3E',
+              800: '#14382D',
+              900: '#0E261E',
+            },
+            warm: {
+              cream: '#FFFDF9',
+              sand: '#F7F3EA',
+              card: '#FFFFFF',
+              border: '#E8E2D2',
+              amber: '#C88D32',
+              amberLight: '#FDF6E9',
+              dark: '#262421'
+            }
+          },
+          fontFamily: {
+            hindi: ['Noto Sans Devanagari', 'Epilogue', 'sans-serif'],
+            heading: ['Epilogue', 'Noto Sans Devanagari', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      font-family: 'Noto Sans Devanagari', 'Epilogue', sans-serif;
+      background-color: #FBF9F4;
+      color: #2D2823;
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 6px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: #F1ECE0;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #C2BAA6;
+      border-radius: 9999px;
+    }
+    .badge-glow {
+      box-shadow: 0 0 12px rgba(200, 141, 50, 0.25);
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col text-warm-dark antialiased selection:bg-brand-500 selection:text-white">
+
+  <!-- TOP ANNOUNCEMENT BAR -->
+  <aside aria-label="Announcement" class="bg-brand-900 text-warm-amberLight text-xs sm:text-sm py-2 px-4 text-center font-medium border-b border-brand-800 flex items-center justify-center gap-2">
+    <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+    <span>🌿 शहडोल (मध्य प्रदेश) के स्थानीय किसानों और कारीगरों से सीधा संपर्क • <strong>WhatsApp पर त्वरित ऑर्डर</strong></span>
+    <span class="hidden md:inline text-warm-amber opacity-75">| हेल्पलाइन: +91 9368465315</span>
+  </aside>
+
+  <!-- STICKY HEADER & NAVBAR -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-warm-border shadow-xs transition-all duration-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
+      
+      <!-- LOGO & TITLE -->
+      <a href="#home" class="flex items-center gap-3 group focus:outline-hidden focus:ring-2 focus:ring-brand-700 rounded-lg p-1">
+        <div class="h-12 w-12 rounded-xl bg-warm-sand flex items-center justify-center overflow-hidden border border-brand-100 shadow-xs group-hover:scale-105 transition-transform">
+          <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDMK_EcBsXasXDGIGl2xhv_qVuFIPOP4158T441jgOA4RPohzMP8FbOeJIN1e140TSCISTqGgzZTbXPne82oYLNqWg5QZuTAo58pd43YzR0eeI39G9ahuzD_6UEgHyUIwwrzZCUDt6oh5phlcsPVDdZt8tmknqIKk4R4l2OG0ZRF90dnFMGeKmA82leaDNu8dIncQ7lmNR3X6RM8ODK2iN3i9ts4gORkuF4d2q6AlbHqSD4LWk4CJci" alt="GramBazaar Logo" class="h-full w-full object-contain p-0.5" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'><circle cx=\'50\' cy=\'50\' r=\'45\' fill=\'%231B4D3E\'/><text x=\'50\' y=\'62\' font-size=\'40\' fill=\'white\' text-anchor=\'middle\'>GB</text></svg>'">
+        </div>
+        <div>
+          <span class="text-2xl font-extrabold tracking-tight text-brand-700 block leading-tight font-heading group-hover:text-brand-500 transition-colors">GramBazaar</span>
+          <span class="text-xs font-semibold text-warm-amber tracking-wider block">ग्रामबाजार • शहडोल</span>
+        </div>
+      </a>
+
+      <!-- DESKTOP NAVIGATION -->
+      <nav class="hidden md:flex items-center space-x-1 lg:space-x-2 font-medium text-gray-700 text-sm">
+        <a href="#home" class="px-3 py-2 rounded-lg hover:text-brand-700 hover:bg-brand-50 transition-colors font-semibold">होम</a>
+        <a href="#products-section" class="px-3 py-2 rounded-lg hover:text-brand-700 hover:bg-brand-50 transition-colors">उत्पाद</a>
+        <a href="#popular-section" class="px-3 py-2 rounded-lg hover:text-brand-700 hover:bg-brand-50 transition-colors">लोकप्रिय उत्पाद</a>
+        <a href="#about-section" class="px-3 py-2 rounded-lg hover:text-brand-700 hover:bg-brand-50 transition-colors">हमारे बारे में</a>
+        <a href="#feedback-section" class="px-3 py-2 rounded-lg hover:text-brand-700 hover:bg-brand-50 transition-colors">सुझाव</a>
+        <a href="#contact-section" class="px-3 py-2 rounded-lg hover:text-brand-700 hover:bg-brand-50 transition-colors">संपर्क</a>
+      </nav>
+
+      <!-- HEADER ACTIONS -->
+      <div class="flex items-center gap-2.5 sm:gap-3">
+        <!-- Direct WhatsApp Direct Call/Chat -->
+        <a href="https://wa.me/919368465315?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20GramBazaar!%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20%E0%A4%B6%E0%A4%B9%E0%A4%A1%E0%A5%8B%E0%A4%B2%20%E0%A4%95%E0%A5%87%20%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%A8%E0%A5%80%E0%A4%AF%20%E0%A4%89%E0%A4%A4%E0%A5%8D%E0%A4%AA%E0%A4%BE%E0%A4%A6%E0%A5%8B%E0%A4%82%20%E0%A4%95%E0%A5%87%20%E0%A4%AC%E0%A4%BE%E0%A4%B0%E0%A5%87%20%E0%A4%AE%E0%A5%87%E0%A4%82%20%E0%A4%9C%E0%A4%BE%E0%A4%A8%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%80%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F%E0%A5%A4" target="_blank" rel="noopener noreferrer" class="hidden sm:inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-emerald-50 text-emerald-800 border border-emerald-200 hover:bg-emerald-100 transition-colors" title="WhatsApp पर विक्रेता से बात करें">
+          <svg class="w-4 h-4 fill-emerald-600" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.588-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.287.043.087.072.188.014.303-.058.116-.087.188-.173.289l-.26.302c-.087.087-.179.182-.077.357.101.174.45 1.745 1.579 2.748.423.376.78.493.896.551.116.058.188.043.26-.043.072-.087.303-.357.39-.479.087-.116.174-.101.29-.058.116.043.738.347.865.41.127.063.212.095.243.148.031.054.031.312-.113.717z"/></svg>
+          <span>WhatsApp संपर्क</span>
+        </a>
+
+        <!-- CART BUTTON -->
+        <button id="open-cart-btn" class="relative flex items-center gap-2 bg-brand-700 hover:bg-brand-800 text-white px-3.5 py-2 sm:px-4 sm:py-2.5 rounded-xl font-medium shadow-sm hover:shadow transition-all group focus:outline-hidden focus:ring-2 focus:ring-brand-700" aria-label="शॉपिंग कार्ट खोलें">
+          <div class="relative">
+            <svg class="w-5 h-5 text-white group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
+            </svg>
+            <span id="header-cart-count" class="absolute -top-2 -right-2 bg-warm-amber text-brand-900 text-[11px] font-extrabold w-5 h-5 rounded-full flex items-center justify-center border-2 border-white shadow-xs">0</span>
+          </div>
+          <span class="text-sm font-semibold hidden sm:inline">कार्ट</span>
+          <span id="header-cart-total" class="text-xs font-bold text-emerald-200 hidden lg:inline bg-brand-800 px-2 py-0.5 rounded-md">₹0</span>
+        </button>
+
+        <!-- MOBILE MENU TOGGLE -->
+        <button id="mobile-menu-toggle" class="md:hidden p-2 rounded-xl text-gray-700 hover:bg-warm-sand hover:text-brand-700 focus:outline-hidden" aria-label="मेनू खोलें">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- MOBILE DROPDOWN NAVIGATION -->
+    <div id="mobile-nav-menu" class="hidden md:hidden border-t border-warm-border bg-white px-4 py-3 space-y-2 text-base font-medium shadow-lg">
+      <a href="#home" class="block px-3 py-2 rounded-lg text-brand-700 bg-brand-50 font-bold mobile-link">होम</a>
+      <a href="#products-section" class="block px-3 py-2 rounded-lg text-gray-700 hover:bg-warm-sand mobile-link">उत्पाद सूची</a>
+      <a href="#popular-section" class="block px-3 py-2 rounded-lg text-gray-700 hover:bg-warm-sand mobile-link">लोकप्रिय उत्पाद</a>
+      <a href="#about-section" class="block px-3 py-2 rounded-lg text-gray-700 hover:bg-warm-sand mobile-link">हमारे बारे में</a>
+      <a href="#feedback-section" class="block px-3 py-2 rounded-lg text-gray-700 hover:bg-warm-sand mobile-link">आपकी राय व सुझाव</a>
+      <a href="#contact-section" class="block px-3 py-2 rounded-lg text-gray-700 hover:bg-warm-sand mobile-link">संपर्क और पता</a>
+      <div class="pt-2 border-t border-warm-border flex justify-between items-center text-xs text-gray-500">
+        <span>स्थान: शहडोल, म.प्र.</span>
+        <a href="https://wa.me/919368465315" target="_blank" class="text-emerald-700 font-bold underline">WhatsApp: 9368465315</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT CONTAINER -->
+  <main class="flex-grow">
+    
+    <!-- HERO SECTION -->
+    <section id="home" class="relative overflow-hidden bg-gradient-to-b from-warm-sand via-warm-cream to-white border-b border-warm-border py-12 md:py-20 lg:py-24">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+          
+          <!-- LEFT HERO TEXT -->
+          <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-warm-amberLight border border-warm-amber/30 text-warm-dark text-xs sm:text-sm font-semibold shadow-xs">
+              <span class="w-2 h-2 rounded-full bg-warm-amber"></span>
+              <span>शाहडोल के स्थानीय उत्पाद, अब आपके घर तक</span>
+            </div>
+
+            <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-brand-900 tracking-tight leading-[1.2] font-heading">
+              अपने शहर के उत्पाद, <br class="hidden sm:inline">
+              <span class="text-brand-700 underline decoration-warm-amber decoration-4 underline-offset-8">अपने लोगों से खरीदें!</span>
+            </h1>
+
+            <p class="text-base sm:text-lg md:text-xl text-gray-700 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-normal">
+              शाहडोल के स्थानीय उत्पादों की खरीदारी अब आसान। पसंदीदा सामान चुनें और सीधे WhatsApp पर ऑर्डर करें। बिना किसी बिचौलिए के शुद्ध ग्रामीण उत्पाद पाएँ।
+            </p>
+
+            <!-- CALL TO ACTIONS -->
+            <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+              <a href="#products-section" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl text-base font-bold text-white bg-brand-700 hover:bg-brand-800 shadow-md hover:shadow-lg transition-all transform hover:-translate-y-0.5">
+                <span>उत्पाद देखें</span>
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+              </a>
+
+              <a href="https://wa.me/919368465315?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20GramBazaar!%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20WhatsApp%20%E0%A4%AA%E0%A4%B0%20%E0%A4%B8%E0%A5%80%E0%A4%A7%E0%A5%87%20%E0%A4%91%E0%A4%B0%E0%A5%8D%E0%A4%A1%E0%A4%B0%20%E0%A4%95%E0%A4%B0%E0%A4%A8%E0%A4%BE%20%E0%A4%B9%E0%A5%88%E0%A5%A4" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-4 rounded-xl text-base font-bold text-emerald-900 bg-emerald-100 hover:bg-emerald-200 border border-emerald-300 shadow-xs transition-all">
+                <svg class="w-5 h-5 fill-emerald-700" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.588-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.287.043.087.072.188.014.303-.058.116-.087.188-.173.289l-.26.302c-.087.087-.179.182-.077.357.101.174.45 1.745 1.579 2.748.423.376.78.493.896.551.116.058.188.043.26-.043.072-.087.303-.357.39-.479.087-.116.174-.101.29-.058.116.043.738.347.865.41.127.063.212.095.243.148.031.054.031.312-.113.717z"/></svg>
+                <span>WhatsApp पर ऑर्डर करें</span>
+              </a>
+            </div>
+
+            <!-- TRUST METRICS -->
+            <div class="grid grid-cols-3 gap-3 pt-6 border-t border-warm-border/80 text-left">
+              <div class="bg-white/80 p-3 rounded-xl border border-warm-border">
+                <span class="block text-xl sm:text-2xl font-black text-brand-700">100%</span>
+                <span class="text-xs text-gray-600 font-medium">स्थानीय व शुद्ध उत्पाद</span>
+              </div>
+              <div class="bg-white/80 p-3 rounded-xl border border-warm-border">
+                <span class="block text-xl sm:text-2xl font-black text-warm-amber">शून्य</span>
+                <span class="text-xs text-gray-600 font-medium">अग्रिम भुगतान का झंझट</span>
+              </div>
+              <div class="bg-white/80 p-3 rounded-xl border border-warm-border">
+                <span class="block text-xl sm:text-2xl font-black text-brand-700">सीधा</span>
+                <span class="text-xs text-gray-600 font-medium">विक्रेता से WhatsApp संपर्क</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- RIGHT HERO IMAGE WITH BADGE -->
+          <div class="lg:col-span-5 relative">
+            <div class="relative mx-auto max-w-md lg:max-w-none rounded-3xl overflow-hidden shadow-2xl border-4 border-white aspect-4/3 sm:aspect-16/10 lg:aspect-4/3 group">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCyo36M3eTmz1R48W8RrBnxoTmKOrOVQM8_5xGd2wK5IJfHEtSqyRg1qVw4J5p2gDU5s915BJGKGLJxOyRhLnlbdSaw_jee4M1CS-NKJ9_N7pyezGnbz-PBk5-fU-rOy933E791erwb6vhFJM5VXmb8MNT29iFEcPAxR_efxHQExgQPWr-rjSayNgKP4DJ7HDU-nJOHcjmNtollHapJrKDSDTKR9k-fUwZpsfLOVGN6k7S4doUDZtRs" alt="शाहडोल स्थानीय ग्रामीण बाजार और जैविक उत्पाद" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+              
+              <!-- Ambient Gradient Overlay -->
+              <div class="absolute inset-0 bg-gradient-to-t from-brand-900/70 via-transparent to-black/10"></div>
+              
+              <!-- Floating Pill -->
+              <div class="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-md p-3.5 rounded-2xl shadow-lg border border-warm-border flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                  <div class="w-10 h-10 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center font-bold text-lg">🌾</div>
+                  <div>
+                    <h2 class="text-sm font-bold text-brand-900">शहडोल ग्राम हाट</h2>
+                    <p class="text-xs text-gray-600">मध्य प्रदेश की प्राकृतिक मिट्टी की खुशबू</p>
+                  </div>
+                </div>
+                <span class="text-xs font-bold px-2.5 py-1 rounded-full bg-emerald-100 text-emerald-800">सत्यापित स्थानीय</span>
+              </div>
+            </div>
+
+            <!-- Background decorative blur circles -->
+            <div class="absolute -top-6 -right-6 w-32 h-32 bg-warm-amber/20 rounded-full blur-2xl -z-10"></div>
+            <div class="absolute -bottom-6 -left-6 w-40 h-40 bg-brand-500/20 rounded-full blur-2xl -z-10"></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- HIGHLIGHT / POPULAR PICKS SECTION (आज के खास उत्पाद) -->
+    <section id="popular-section" class="py-12 bg-white border-b border-warm-border">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
+          <div>
+            <div class="inline-flex items-center gap-1.5 text-xs font-bold text-warm-amber tracking-wider uppercase mb-1">
+              <span>⭐</span> आज के खास उत्पाद
+            </div>
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-brand-900 font-heading">
+              लोकप्रिय ग्रामीण पसंद
+            </h2>
+          </div>
+          <p class="text-sm text-gray-600 max-w-md">
+            शाहडोल के ग्राहकों द्वारा सबसे अधिक पसंद किए जाने वाले प्रामाणिक उत्पाद, सीधे गांव के उत्पादकों से तैयार।
+          </p>
+        </div>
+
+        <!-- POPULAR HIGHLIGHT CARDS -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          
+          <!-- Highlight 1 -->
+          <div class="bg-gradient-to-br from-amber-50/60 to-white rounded-2xl p-5 border border-amber-200/80 shadow-xs flex items-center gap-4 hover:shadow-md transition-shadow">
+            <div class="w-20 h-20 rounded-xl bg-amber-100 flex-shrink-0 flex items-center justify-center text-3xl shadow-inner">
+              🍯
+            </div>
+            <div>
+              <span class="text-[11px] font-bold px-2 py-0.5 rounded-full bg-amber-200/80 text-amber-900">सर्वोत्तम गुणवत्ता</span>
+              <h3 class="text-base font-bold text-brand-900 mt-1">शहडोल जंगली शुद्ध शहद</h3>
+              <p class="text-xs text-gray-600">अमलाई-बांधवगढ़ वनों का प्राकृतिक कच्चा शहद</p>
+              <div class="mt-2 text-sm font-black text-brand-700">₹450 <span class="text-xs font-normal text-gray-500">/ 500 ग्राम</span></div>
+            </div>
+          </div>
+
+          <!-- Highlight 2 -->
+          <div class="bg-gradient-to-br from-emerald-50/60 to-white rounded-2xl p-5 border border-emerald-200/80 shadow-xs flex items-center gap-4 hover:shadow-md transition-shadow">
+            <div class="w-20 h-20 rounded-xl bg-emerald-100 flex-shrink-0 flex items-center justify-center text-3xl shadow-inner">
+              🌾
+            </div>
+            <div>
+              <span class="text-[11px] font-bold px-2 py-0.5 rounded-full bg-emerald-200/80 text-emerald-900">स्थानीय फसल</span>
+              <h3 class="text-base font-bold text-brand-900 mt-1">पारंपरिक स्थानीय धान चावल</h3>
+              <p class="text-xs text-gray-600">सुगंधित, बिना पॉलिश का पौष्टिक देशी चावल</p>
+              <div class="mt-2 text-sm font-black text-brand-700">₹85 <span class="text-xs font-normal text-gray-500">/ प्रति किलो</span></div>
+            </div>
+          </div>
+
+          <!-- Highlight 3 -->
+          <div class="bg-gradient-to-br from-orange-50/60 to-white rounded-2xl p-5 border border-orange-200/80 shadow-xs flex items-center gap-4 hover:shadow-md transition-shadow">
+            <div class="w-20 h-20 rounded-xl bg-orange-100 flex-shrink-0 flex items-center justify-center text-3xl shadow-inner">
+              🧺
+            </div>
+            <div>
+              <span class="text-[11px] font-bold px-2 py-0.5 rounded-full bg-orange-200/80 text-orange-900">जनजातीय शिल्प</span>
+              <h3 class="text-base font-bold text-brand-900 mt-1">बांस हस्तशिल्प डलिया</h3>
+              <p class="text-xs text-gray-600">स्थानीय ग्रामीण कारीगरों द्वारा हस्तनिर्मित</p>
+              <div class="mt-2 text-sm font-black text-brand-700">₹240 <span class="text-xs font-normal text-gray-500">/ प्रति पीस</span></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCT CATALOG SECTION -->
+    <section id="products-section" class="py-14 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- SECTION HEADER -->
+      <div class="text-center max-w-3xl mx-auto mb-10">
+        <span class="text-xs font-extrabold uppercase tracking-widest text-brand-700 bg-brand-50 px-3 py-1 rounded-full border border-brand-100">
+          शहडोल ग्राम हाट कैटलॉग
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-900 mt-3 font-heading">
+          ताज़ा और प्रामाणिक उत्पाद
+        </h2>
+        <p class="text-gray-600 text-base mt-2">
+          अपनी जरूरत का सामान चुनें, मात्रा तय करें और कार्ट में जोड़ें। सभी उत्पाद सीधे स्थानीय उत्पादकों से संकलित हैं।
+        </p>
+      </div>
+
+      <!-- SEARCH & CATEGORY FILTER BAR -->
+      <div class="bg-white p-4 sm:p-5 rounded-2xl border border-warm-border shadow-xs mb-10 space-y-4">
+        
+        <div class="flex flex-col md:flex-row gap-4 items-center justify-between">
+          
+          <!-- SEARCH INPUT -->
+          <div class="relative w-full md:w-96">
+            <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-gray-400">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+            </span>
+            <input type="text" id="product-search-input" placeholder="अपना पसंदीदा उत्पाद खोजें... (उदा. शहद, चावल, महुआ)" class="w-full pl-11 pr-4 py-2.5 rounded-xl border border-warm-border bg-warm-cream/50 focus:bg-white focus:outline-hidden focus:ring-2 focus:ring-brand-700 text-sm transition-all" aria-label="उत्पाद खोजें">
+            <button id="clear-search-btn" class="hidden absolute inset-y-0 right-0 pr-3 flex items-center text-gray-400 hover:text-gray-600" aria-label="खोज साफ़ करें">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+            </button>
+          </div>
+
+          <!-- ORDER NOTIFICATION & MINIMUM ORDER NOTICE -->
+          <div class="flex items-center gap-2 text-xs text-gray-500 bg-warm-sand/80 px-3.5 py-2 rounded-xl border border-warm-border">
+            <span class="text-emerald-700 font-bold">ℹ️ सूचना:</span>
+            <span>डिलीवरी शुल्क और समय WhatsApp पर विक्रेता द्वारा सुनिश्चित किया जाएगा।</span>
+          </div>
+        </div>
+
+        <!-- CATEGORY PILLS -->
+        <div class="flex items-center gap-2 overflow-x-auto pb-1 pt-1 custom-scrollbar text-sm" id="category-pills" role="tablist">
+          <button class="category-btn active px-4 py-2 rounded-xl font-bold whitespace-nowrap transition-all bg-brand-700 text-white shadow-xs" data-category="all">
+            सभी उत्पाद (All)
+          </button>
+          <button class="category-btn px-4 py-2 rounded-xl font-medium text-gray-700 hover:bg-warm-sand bg-white border border-warm-border whitespace-nowrap transition-all" data-category="खाद्य पदार्थ">
+            🌾 खाद्य व अनाज
+          </button>
+          <button class="category-btn px-4 py-2 rounded-xl font-medium text-gray-700 hover:bg-warm-sand bg-white border border-warm-border whitespace-nowrap transition-all" data-category="शहद">
+            🍯 शुद्ध शहद
+          </button>
+          <button class="category-btn px-4 py-2 rounded-xl font-medium text-gray-700 hover:bg-warm-sand bg-white border border-warm-border whitespace-nowrap transition-all" data-category="कृषि उत्पाद">
+            🌱 दालें व कृषि उत्पाद
+          </button>
+          <button class="category-btn px-4 py-2 rounded-xl font-medium text-gray-700 hover:bg-warm-sand bg-white border border-warm-border whitespace-nowrap transition-all" data-category="महुआ उत्पाद">
+            🍂 महुआ उत्पाद (गैर-मादक)
+          </button>
+          <button class="category-btn px-4 py-2 rounded-xl font-medium text-gray-700 hover:bg-warm-sand bg-white border border-warm-border whitespace-nowrap transition-all" data-category="हस्तशिल्प">
+            🧺 स्थानीय हस्तशिल्प
+          </button>
+          <button class="category-btn px-4 py-2 rounded-xl font-medium text-gray-700 hover:bg-warm-sand bg-white border border-warm-border whitespace-nowrap transition-all" data-category="वन उपज">
+            🌿 वन उपज उत्पाद
+          </button>
+        </div>
+
+      </div>
+
+      <!-- PRODUCT GRID -->
+      <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <!-- Products will be injected via JavaScript -->
+      </div>
+
+      <!-- NO PRODUCTS FOUND STATE -->
+      <div id="no-products-view" class="hidden text-center py-16 px-4 bg-white rounded-3xl border border-warm-border my-6">
+        <div class="w-20 h-20 mx-auto rounded-full bg-warm-sand flex items-center justify-center text-4xl mb-4">
+          🔍
+        </div>
+        <h3 class="text-xl font-bold text-brand-900 mb-2">कोई उत्पाद नहीं मिला</h3>
+        <p class="text-gray-600 max-w-md mx-auto text-sm mb-6">
+          आपके द्वारा खोजे गए शब्द या श्रेणी के लिए कोई उत्पाद उपलब्ध नहीं है। कृपया अन्य नाम खोजें या नीचे सुझाव दें।
+        </p>
+        <button id="reset-filters-btn" class="px-5 py-2.5 rounded-xl bg-brand-700 text-white font-bold text-sm hover:bg-brand-800 transition-colors">
+          सभी उत्पाद पुनः देखें
+        </button>
+      </div>
+
+    </section>
+
+    <!-- HOW IT WORKS & WHY GRAMBAZAAR -->
+    <section class="py-16 bg-warm-sand/50 border-y border-warm-border">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-12">
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-brand-900 font-heading">
+            खरीदारी की सरल प्रक्रिया (3 आसान चरण)
+          </h2>
+          <p class="text-gray-600 text-sm mt-2">
+            बिना किसी जटिल ऐप या पासवर्ड के, सीधे WhatsApp द्वारा सरल खरीदारी
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          
+          <div class="bg-white p-6 rounded-2xl border border-warm-border shadow-xs text-center relative group hover:border-brand-500 transition-colors">
+            <div class="w-14 h-14 mx-auto rounded-2xl bg-brand-50 text-brand-700 flex items-center justify-center text-2xl font-black mb-4 border border-brand-100 group-hover:bg-brand-700 group-hover:text-white transition-colors">
+              1
+            </div>
+            <h3 class="text-lg font-bold text-brand-900 mb-2">उत्पाद चुनें</h3>
+            <p class="text-sm text-gray-600">
+              वेबसाइट पर शहडोल के विभिन्न स्थानीय उत्पाद देखें और अपनी आवश्यकतानुसार मात्रा चुनकर कार्ट में जोड़ें।
+            </p>
+          </div>
+
+          <div class="bg-white p-6 rounded-2xl border border-warm-border shadow-xs text-center relative group hover:border-brand-500 transition-colors">
+            <div class="w-14 h-14 mx-auto rounded-2xl bg-warm-amberLight text-warm-amber flex items-center justify-center text-2xl font-black mb-4 border border-warm-amber/30 group-hover:bg-warm-amber group-hover:text-white transition-colors">
+              2
+            </div>
+            <h3 class="text-lg font-bold text-brand-900 mb-2">विवरण भरें</h3>
+            <p class="text-sm text-gray-600">
+              अपना नाम, संपर्क नंबर और पता दर्ज करें। किसी ऑनलाइन भुगतान या पासवर्ड की जरूरत नहीं है।
+            </p>
+          </div>
+
+          <div class="bg-white p-6 rounded-2xl border border-warm-border shadow-xs text-center relative group hover:border-brand-500 transition-colors">
+            <div class="w-14 h-14 mx-auto rounded-2xl bg-emerald-50 text-emerald-700 flex items-center justify-center text-2xl font-black mb-4 border border-emerald-200 group-hover:bg-emerald-600 group-hover:text-white transition-colors">
+              3
+            </div>
+            <h3 class="text-lg font-bold text-brand-900 mb-2">WhatsApp पर ऑर्डर भेजें</h3>
+            <p class="text-sm text-gray-600">
+              एक क्लिक में पूरा ऑर्डर विक्रेता के WhatsApp (+91 9368465315) पर चला जाएगा। विक्रेता पुष्टि करेंगे।
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT US SECTION -->
+    <section id="about-section" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        
+        <div class="lg:col-span-6 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-50 border border-brand-100 text-brand-700 text-xs font-bold">
+            हमारे बारे में • GramBazaar
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-900 font-heading leading-tight">
+            शहडोल के स्थानीय उत्पादकों और आपके बीच एक भरोसेमंद सेतु
+          </h2>
+          <p class="text-base text-gray-700 leading-relaxed">
+            GramBazaar (ग्रामबाजार) का मुख्य उद्देश्य शहडोल, मध्य प्रदेश के स्थानीय छोटे उत्पादकों, स्व-सहायता समूहों, वन उपज संग्राहकों और ग्रामीण कारीगरों को ऑनलाइन मंच प्रदान करना है। 
+          </p>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            हम स्थानीय व्यापार को बढ़ावा देने के लिए तकनीक का सरलतम रूप लाते हैं ताकि हर ग्राहक आसानी से अपने क्षेत्र के उत्पाद सीधे पहचान सके और WhatsApp पर बिना किसी जटिलता के आर्डर कर सके।
+          </p>
+
+          <!-- Core Values Checklist -->
+          <div class="space-y-3 pt-2">
+            <div class="flex items-start gap-3">
+              <span class="w-6 h-6 rounded-full bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">✓</span>
+              <div>
+                <strong class="text-brand-900 text-sm block">स्थानीय उत्पादों को बढ़ावा</strong>
+                <span class="text-xs text-gray-600">शहडोल जिले की ग्रामीण अर्थव्यवस्था और स्वदेशी उत्पादों को संबल।</span>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="w-6 h-6 rounded-full bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">✓</span>
+              <div>
+                <strong class="text-brand-900 text-sm block">स्थानीय विक्रेताओं से सीधा संपर्क</strong>
+                <span class="text-xs text-gray-600">बिना किसी बड़े कमीशन या बिचौलिए के पारदर्शी मूल्य और गुणवत्ता।</span>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="w-6 h-6 rounded-full bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">✓</span>
+              <div>
+                <strong class="text-brand-900 text-sm block">आसान WhatsApp ऑर्डर</strong>
+                <span class="text-xs text-gray-600">कोई जटिल भुगतान गेटवे नहीं, आपकी सुविधा अनुसार सीधा संवाद।</span>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="w-6 h-6 rounded-full bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">✓</span>
+              <div>
+                <strong class="text-brand-900 text-sm block">सरल और सुविधाजनक खरीदारी</strong>
+                <span class="text-xs text-gray-600">मोबाइल और कंप्यूटर दोनों पर सुगम व त्वरित अनुभव।</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-6 bg-warm-sand p-6 sm:p-8 rounded-3xl border border-warm-border relative overflow-hidden">
+          <div class="bg-white p-6 rounded-2xl border border-warm-border shadow-xs space-y-4">
+            <h3 class="text-lg font-bold text-brand-900 flex items-center gap-2">
+              <span class="text-2xl">🌱</span> हमारा दृष्टिकोण (Our Vision)
+            </h3>
+            <p class="text-sm text-gray-600 leading-relaxed">
+              "शहडोल के हर गांव का हुनर, हर घर की रसोई और बैठक तक पहुँचे। शुद्धता और पारंपरिक स्वाद को आधुनिक सहजता के साथ प्रस्तुत करना हमारा संकल्प है।"
+            </p>
+            <div class="p-4 rounded-xl bg-warm-cream border border-warm-border/60 text-xs text-gray-700 space-y-1">
+              <div class="font-bold text-brand-800">📌 ध्यान दें:</div>
+              <div>उत्पाद उपलब्धता एवं गुणवत्ता विक्रेता के स्टॉक और मौसम पर निर्भर करती है। विक्रेता से WhatsApp पर संपूर्ण जानकारी प्राप्त की जा सकती है।</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CUSTOMER SUGGESTIONS & FEEDBACK (आपकी राय, हमारा सुधार) -->
+    <section id="feedback-section" class="py-16 bg-white border-t border-warm-border">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center mb-10">
+          <span class="text-xs font-bold px-3 py-1 rounded-full bg-warm-amberLight text-warm-dark border border-warm-amber/30">
+            जन सुझाव एवं समीक्षा
+          </span>
+          <h2 class="text-3xl font-extrabold text-brand-900 mt-2 font-heading">
+            आपकी राय, हमारा सुधार
+          </h2>
+          <p class="text-sm text-gray-600 mt-2">
+            क्या आप चाहते हैं कि GramBazaar शहडोल का कोई नया स्थानीय उत्पाद जोड़े? या कोई सुझाव देना चाहते हैं?
+          </p>
+        </div>
+
+        <div class="bg-warm-sand/50 p-6 sm:p-8 rounded-3xl border border-warm-border shadow-xs">
+          <form id="feedback-form" class="space-y-5">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label for="feedback-name" class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1">
+                  आपका नाम (वैकल्पिक)
+                </label>
+                <input type="text" id="feedback-name" placeholder="उदा. राहुल वर्मा" class="w-full px-4 py-2.5 rounded-xl border border-warm-border bg-white text-sm focus:outline-hidden focus:ring-2 focus:ring-brand-700">
+              </div>
+              <div>
+                <label for="feedback-phone" class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1">
+                  मोबाइल नंबर (वैकल्पिक)
+                </label>
+                <input type="tel" id="feedback-phone" placeholder="उदा. 98XXXXXXXX" class="w-full px-4 py-2.5 rounded-xl border border-warm-border bg-white text-sm focus:outline-hidden focus:ring-2 focus:ring-brand-700">
+              </div>
+            </div>
+
+            <div>
+              <label for="feedback-message" class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1">
+                आपका सुझाव या नए उत्पाद की मांग <span class="text-red-500">*</span>
+              </label>
+              <textarea id="feedback-message" rows="3" required placeholder="जैसे: कृपया सोहागपुर के हस्तशिल्प या अनूपपुर मार्ग के स्थानीय उत्पाद भी जोड़ें..." class="w-full px-4 py-2.5 rounded-xl border border-warm-border bg-white text-sm focus:outline-hidden focus:ring-2 focus:ring-brand-700"></textarea>
+            </div>
+
+            <div class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-2">
+              <span class="text-xs text-gray-500 text-center sm:text-left">
+                🔒 सुझाव सीधे WhatsApp संदेश के माध्यम से विक्रेता (+91 9368465315) को भेजा जाता है।
+              </span>
+              <button type="submit" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-brand-700 hover:bg-brand-800 text-white font-bold text-sm shadow-xs transition-all">
+                <span>WhatsApp पर सुझाव भेजें</span>
+                <svg class="w-4 h-4 fill-emerald-300" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.588-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.287.043.087.072.188.014.303-.058.116-.087.188-.173.289l-.26.302c-.087.087-.179.182-.077.357.101.174.45 1.745 1.579 2.748.423.376.78.493.896.551.116.058.188.043.26-.043.072-.087.303-.357.39-.479.087-.116.174-.101.29-.058.116.043.738.347.865.41.127.063.212.095.243.148.031.054.031.312-.113.717z"/></svg>
+              </button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- SLIDE-OVER SHOPPING CART & CHECKOUT DRAWER -->
+  <aside id="cart-drawer-container" class="fixed inset-0 z-50 overflow-hidden pointer-events-none transition-opacity duration-300 opacity-0" aria-label="Shopping Cart">
+    <!-- Backdrop -->
+    <div id="cart-backdrop" class="absolute inset-0 bg-black/60 backdrop-blur-xs transition-opacity pointer-events-auto"></div>
+
+    <div class="fixed inset-y-0 right-0 max-w-full flex pl-6 sm:pl-10">
+      <div id="cart-panel" class="w-screen max-w-md bg-white shadow-2xl flex flex-col pointer-events-auto transform translate-x-full transition-transform duration-300 ease-in-out border-l border-warm-border">
+        
+        <!-- DRAWER HEADER -->
+        <div class="p-5 border-b border-warm-border bg-warm-sand/50 flex items-center justify-between">
+          <div class="flex items-center gap-2.5">
+            <div class="w-9 h-9 rounded-xl bg-brand-700 text-white flex items-center justify-center font-bold">
+              🛒
+            </div>
+            <div>
+              <h2 class="text-lg font-extrabold text-brand-900 leading-tight">आपकी खरीदारी कार्ट</h2>
+              <span id="drawer-items-count-badge" class="text-xs text-gray-500 font-medium">0 सामान जुड़े</span>
+            </div>
+          </div>
+          <button id="close-cart-btn" class="p-2 rounded-xl text-gray-400 hover:text-gray-700 hover:bg-white focus:outline-hidden" aria-label="कार्ट बंद करें">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+          </button>
+        </div>
+
+        <!-- CART ITEMS SCROLLABLE CONTAINER -->
+        <div class="flex-1 overflow-y-auto p-5 space-y-4 custom-scrollbar" id="cart-items-wrapper">
+          <!-- Populated by JS -->
+        </div>
+
+        <!-- EMPTY CART STATE -->
+        <div id="empty-cart-view" class="hidden flex-1 flex flex-col items-center justify-center p-8 text-center space-y-4">
+          <div class="w-20 h-20 rounded-full bg-warm-sand flex items-center justify-center text-4xl shadow-inner">
+            🧺
+          </div>
+          <h3 class="text-lg font-bold text-brand-900">आपकी कार्ट अभी खाली है</h3>
+          <p class="text-xs text-gray-500 max-w-xs">
+            शहडोल के ताज़ा स्थानीय उत्पाद देखने के लिए कैटलॉग देखें और अपनी पसंद की चीजें जोड़ें।
+          </p>
+          <button id="cart-shop-now-btn" class="px-5 py-2.5 rounded-xl bg-brand-700 hover:bg-brand-800 text-white text-sm font-bold shadow-xs transition-colors">
+            उत्पाद देखें
+          </button>
+        </div>
+
+        <!-- CHECKOUT & CUSTOMER DETAILS SECTION (SHOWN ONLY IF CART HAS ITEMS) -->
+        <div id="cart-checkout-footer" class="border-t border-warm-border bg-warm-sand/30 p-5 space-y-4">
+          
+          <!-- ORDER SUMMARY CALCULATION -->
+          <div class="space-y-1.5 text-sm bg-white p-3.5 rounded-xl border border-warm-border">
+            <div class="flex justify-between text-gray-600">
+              <span>उप-योग (Subtotal)</span>
+              <span id="cart-subtotal-price" class="font-semibold text-gray-900">₹0</span>
+            </div>
+            <div class="flex justify-between text-gray-600 text-xs">
+              <span>डिलीवरी शुल्क</span>
+              <span class="text-emerald-700 font-semibold">विक्रेता द्वारा पुष्टि</span>
+            </div>
+            <div class="border-t border-warm-border pt-2 flex justify-between items-baseline font-bold text-base text-brand-900">
+              <span>कुल राशि (अनुमानित)</span>
+              <span id="cart-total-price" class="text-xl text-brand-700">₹0</span>
+            </div>
+          </div>
+
+          <!-- CUSTOMER DETAILS FORM -->
+          <div class="bg-white p-4 rounded-xl border border-warm-border space-y-3">
+            <h4 class="text-xs font-bold uppercase tracking-wider text-brand-900 flex items-center gap-1.5">
+              <span>📍</span> ग्राहक का विवरण (Customer Details)
+            </h4>
+
+            <div>
+              <input type="text" id="cust-name" placeholder="ग्राहक का नाम *" required class="w-full px-3 py-2 text-xs rounded-lg border border-warm-border focus:ring-1 focus:ring-brand-700 focus:outline-hidden">
+            </div>
+
+            <div>
+              <input type="tel" id="cust-phone" placeholder="मोबाइल नंबर (10 अंक) *" required maxlength="10" class="w-full px-3 py-2 text-xs rounded-lg border border-warm-border focus:ring-1 focus:ring-brand-700 focus:outline-hidden">
+            </div>
+
+            <div>
+              <textarea id="cust-address" placeholder="पूरा पता (मकान सं., मोहल्ला / लैंडमार्क) *" required rows="2" class="w-full px-3 py-2 text-xs rounded-lg border border-warm-border focus:ring-1 focus:ring-brand-700 focus:outline-hidden"></textarea>
+            </div>
+
+            <div class="grid grid-cols-2 gap-2">
+              <input type="text" id="cust-city" placeholder="शहर या गाँव (उदा. शहडोल) *" required class="w-full px-3 py-2 text-xs rounded-lg border border-warm-border focus:ring-1 focus:ring-brand-700 focus:outline-hidden">
+              <input type="text" id="cust-pincode" placeholder="पिन कोड (वैकल्पिक)" maxlength="6" class="w-full px-3 py-2 text-xs rounded-lg border border-warm-border focus:ring-1 focus:ring-brand-700 focus:outline-hidden">
+            </div>
+
+            <div id="form-error-notice" class="hidden text-[11px] text-red-600 bg-red-50 p-2 rounded-lg border border-red-200">
+              कृपया सभी आवश्यक विवरण सही से भरें (वैध 10 अंकों का मोबाइल नंबर)।
+            </div>
+          </div>
+
+          <!-- WHATSAPP CHECKOUT BUTTON -->
+          <button id="whatsapp-checkout-btn" class="w-full flex items-center justify-center gap-2 py-3.5 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm shadow-md hover:shadow-lg transition-all focus:outline-hidden">
+            <svg class="w-5 h-5 fill-white" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.588-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.287.043.087.072.188.014.303-.058.116-.087.188-.173.289l-.26.302c-.087.087-.179.182-.077.357.101.174.45 1.745 1.579 2.748.423.376.78.493.896.551.116.058.188.043.26-.043.072-.087.303-.357.39-.479.087-.116.174-.101.29-.058.116.043.738.347.865.41.127.063.212.095.243.148.031.054.031.312-.113.717z"/></svg>
+            <span>WhatsApp पर ऑर्डर भेजें</span>
+          </button>
+
+          <p class="text-[11px] text-gray-500 text-center">
+            बटन दबाने पर सीधे WhatsApp पर ऑर्डर सारांश खुलेगा। कोई अग्रिम भुगतान नहीं लिया जाता।
+          </p>
+
+        </div>
+
+      </div>
+    </div>
+  </aside>
+
+  <!-- FLOATING WHATSAPP BUTTON (ALWAYS ACCESSIBLE) -->
+  <a href="https://wa.me/919368465315?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20GramBazaar!%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%A8%E0%A5%80%E0%A4%AF%20%E0%A4%89%E0%A4%A4%E0%A5%8D%E0%A4%AA%E0%A4%BE%E0%A4%A6%E0%A5%8B%E0%A4%82%20%E0%A4%95%E0%A5%87%20%E0%A4%AC%E0%A4%BE%E0%A4%B0%E0%A5%87%20%E0%A4%AE%E0%A5%87%E0%A4%82%20%E0%A4%AA%E0%A5%82%E0%A4%9B%E0%A4%A4%E0%A4%BE%E0%A4%9B%20%E0%A4%95%E0%A4%B0%E0%A4%A8%E0%A5%80%20%E0%A4%B9%E0%A5%88%E0%A5%A4" target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 z-40 bg-emerald-600 hover:bg-emerald-700 text-white p-3.5 sm:px-4 sm:py-3.5 rounded-full shadow-2xl hover:scale-105 transition-all flex items-center gap-2.5 border-2 border-white focus:outline-hidden" title="WhatsApp पर तुरंत संदेश भेजें" aria-label="WhatsApp चैट">
+    <svg class="w-6 h-6 fill-white" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.588-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.287.043.087.072.188.014.303-.058.116-.087.188-.173.289l-.26.302c-.087.087-.179.182-.077.357.101.174.45 1.745 1.579 2.748.423.376.78.493.896.551.116.058.188.043.26-.043.072-.087.303-.357.39-.479.087-.116.174-.101.29-.058.116.043.738.347.865.41.127.063.212.095.243.148.031.054.031.312-.113.717z"/></svg>
+    <span class="text-xs font-bold hidden sm:inline">WhatsApp सहायता</span>
+  </a>
+
+  <!-- TOAST NOTIFICATION -->
+  <div id="toast-notification" class="fixed bottom-6 left-6 z-50 transform -translate-y-10 opacity-0 pointer-events-none transition-all duration-300 bg-brand-900 text-white px-4 py-3 rounded-2xl shadow-xl flex items-center gap-3 border border-brand-700 text-sm">
+    <span id="toast-icon" class="text-xl">✅</span>
+    <span id="toast-message" class="font-medium">उत्पाद कार्ट में जोड़ा गया!</span>
+  </div>
+
+  <!-- CONTACT & FOOTER SECTION -->
+  <footer id="contact-section" class="bg-brand-900 text-warm-sand pt-14 pb-8 border-t border-brand-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-brand-800/80">
+        
+        <!-- COL 1: BRAND -->
+        <div class="lg:col-span-4 space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="h-10 w-10 rounded-xl bg-white p-1 flex items-center justify-center">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDMK_EcBsXasXDGIGl2xhv_qVuFIPOP4158T441jgOA4RPohzMP8FbOeJIN1e140TSCISTqGgzZTbXPne82oYLNqWg5QZuTAo58pd43YzR0eeI39G9ahuzD_6UEgHyUIwwrzZCUDt6oh5phlcsPVDdZt8tmknqIKk4R4l2OG0ZRF90dnFMGeKmA82leaDNu8dIncQ7lmNR3X6RM8ODK2iN3i9ts4gORkuF4d2q6AlbHqSD4LWk4CJci" alt="GramBazaar" class="h-full w-full object-contain">
+            </div>
+            <div>
+              <span class="text-xl font-bold text-white block">GramBazaar</span>
+              <span class="text-xs text-warm-amber font-semibold">ग्रामबाजार • शहडोल</span>
+            </div>
+          </div>
+          <p class="text-xs text-brand-100 leading-relaxed">
+            शाहडोल (मध्य प्रदेश) के स्थानीय छोटे उत्पादकों, किसानों और हस्तशिल्पियों को ग्राहकों से जोड़ने का एक सरल डिजिटल प्रयास।
+          </p>
+          <div class="pt-2">
+            <span class="inline-block text-xs font-semibold text-warm-amberLight bg-brand-800 px-3 py-1.5 rounded-lg border border-brand-700">
+              📍 सेवा क्षेत्र: संपूर्ण शहडोल जिला एवं निकटवर्ती क्षेत्र
+            </span>
+          </div>
+        </div>
+
+        <!-- COL 2: QUICK LINKS -->
+        <div class="lg:col-span-3 space-y-3">
+          <h4 class="text-sm font-bold text-white tracking-wider uppercase">नेविगेशन लिंक्स</h4>
+          <ul class="space-y-2 text-xs text-brand-100">
+            <li><a href="#home" class="hover:text-warm-amber transition-colors">होम पेज (मुख्य पृष्ठ)</a></li>
+            <li><a href="#products-section" class="hover:text-warm-amber transition-colors">सभी स्थानीय उत्पाद</a></li>
+            <li><a href="#popular-section" class="hover:text-warm-amber transition-colors">लोकप्रिय उत्पाद</a></li>
+            <li><a href="#about-section" class="hover:text-warm-amber transition-colors">हमारे बारे में</a></li>
+            <li><a href="#feedback-section" class="hover:text-warm-amber transition-colors">सुझाव एवं नई मांग</a></li>
+          </ul>
+        </div>
+
+        <!-- COL 3: SELLER & WHATSAPP CONTACT -->
+        <div class="lg:col-span-5 space-y-3">
+          <h4 class="text-sm font-bold text-white tracking-wider uppercase">विक्रेता एवं सहायता संपर्क</h4>
+          <p class="text-xs text-brand-100">
+            किसी भी उत्पाद संबंधी पूछताछ, थोक ऑर्डर या सहायता के लिए सीधे विक्रेता से संपर्क करें:
+          </p>
+          <div class="bg-brand-800/80 p-4 rounded-2xl border border-brand-700 space-y-3">
+            <div class="flex items-center gap-3">
+              <div class="w-8 h-8 rounded-full bg-emerald-500/20 text-emerald-300 flex items-center justify-center font-bold">
+                📞
+              </div>
+              <div>
+                <span class="text-[11px] text-gray-300 block">विक्रेता WhatsApp नंबर</span>
+                <a href="https://wa.me/919368465315" class="text-base font-bold text-white hover:text-emerald-300 font-mono">+91 9368465315</a>
+              </div>
+            </div>
+            
+            <a href="https://wa.me/919368465315" target="_blank" rel="noopener noreferrer" class="inline-flex w-full items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold transition-colors">
+              <svg class="w-4 h-4 fill-white" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.588-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.287.043.087.072.188.014.303-.058.116-.087.188-.173.289l-.26.302c-.087.087-.179.182-.077.357.101.174.45 1.745 1.579 2.748.423.376.78.493.896.551.116.058.188.043.26-.043.072-.087.303-.357.39-.479.087-.116.174-.101.29-.058.116.043.738.347.865.41.127.063.212.095.243.148.031.054.031.312-.113.717z"/></svg>
+              <span>सीधा WhatsApp चैट शुरू करें</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- POLICY NOTE & DISCLAIMER -->
+      <div class="py-6 border-b border-brand-800/80 text-[11px] text-brand-200/80 space-y-2">
+        <p>
+          <strong>नियम व शर्तें (Terms & Conditions Placeholder):</strong> GramBazaar केवल स्थानीय उत्पादों के प्रदर्शन एवं WhatsApp संचार का माध्यम है। किसी भी उत्पाद की अंतिम उपलब्धता, डिलीवरी शुल्क, एवं वापसी नीति (Return Policy) विक्रेता द्वारा ऑर्डर पुष्टिकरण के समय तय की जाएगी।
+        </p>
+        <p>
+          <strong>सत्यापन अस्वीकरण:</strong> प्रत्येक उत्पाद स्थानीय स्रोतों से एकत्रित करने का प्रयास किया जाता है, किंतु किसी भी गैर-प्रमाणित दावे का समर्थन नहीं किया जाता।
+        </p>
+      </div>
+
+      <!-- COPYRIGHT -->
+      <div class="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-brand-200 gap-3">
+        <div>
+          © <span id="current-year">2025</span> GramBazaar (ग्रामबाजार), शहडोल (मध्य प्रदेश). सर्वाधिकार सुरक्षित।
+        </div>
+        <div class="flex items-center gap-4 text-warm-amber">
+          <span>शाहडोल के स्थानीय उत्पाद, अब आपके घर तक</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- JAVASCRIPT LOGIC (PRODUCT DATA, CART, SEARCH, & WHATSAPP GENERATION) -->
+  <script>
+    /**
+     * GRAMBAZAAR APPLICATION SCRIPT
+     * Seller WhatsApp: +919368465315 (International format: 919368465315)
+     */
+
+    const SELLER_WHATSAPP_NUMBER = "919368465315";
+
+    // Currency Formatter for Indian Rupees
+    const currencyFormatter = new Intl.NumberFormat('en-IN', {
+      style: 'currency',
+      currency: 'INR',
+      maximumFractionDigits: 0
+    });
+
+    // Replaceable Sample Products Data representing Shahdol's local market
+    const PRODUCTS = [
+      {
+        id: "prod-1",
+        name: "शाहडोल देशी शुद्ध शहद",
+        description: "शहडोल व बांधवगढ़ वन परिक्षेत्र से संकलित प्राकृतिक कच्चा शहद। बिना किसी मिलावट के।",
+        price: 450,
+        unit: "प्रति 500 ग्राम",
+        category: "शहद",
+        badge: "लोकप्रिय",
+        icon: "🍯",
+        image: "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        id: "prod-2",
+        name: "स्थानीय पारंपरिक चावल (देसी धान)",
+        description: "शहडोल के स्थानीय किसानों द्वारा उपजाया गया बिना पॉलिश का सुगंधित और पौष्टिक चावल।",
+        price: 85,
+        unit: "प्रति किलो",
+        category: "खाद्य पदार्थ",
+        badge: "कृषक उत्पाद",
+        icon: "🌾",
+        image: "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        id: "prod-3",
+        name: "महुआ कुकीज (गैर-मादक पौष्टिक उत्पाद)",
+        description: "प्राकृतिक सूखे महुआ से तैयार शुद्ध शाकाहारी बिस्कुट एवं कुकीज, आयरन व खनिजों से भरपूर।",
+        price: 160,
+        unit: "प्रति पैकेट (300g)",
+        category: "महुआ उत्पाद",
+        badge: "पारंपरिक नवाचार",
+        icon: "🍪",
+        image: "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        id: "prod-4",
+        name: "देशी अरहर (तुअर) दाल",
+        description: "हाथ की चक्की से दली हुई बिना पॉलिश की शुद्ध देशी तुअर दाल। स्वादिष्ट और पौष्टिक।",
+        price: 175,
+        unit: "प्रति किलो",
+        category: "कृषि उत्पाद",
+        badge: "ताजा फसल",
+        icon: "🥣",
+        image: "https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        id: "prod-5",
+        name: "स्थानीय बांस हस्तशिल्प डलिया (बास्केट)",
+        description: "शहडोल के स्थानीय जनजातीय कारीगरों द्वारा हस्तनिर्मित पर्यावरण-अनुकूल मजबूत बांस की डलिया।",
+        price: 240,
+        unit: "प्रति पीस",
+        category: "हस्तशिल्प",
+        badge: "हस्तनिर्मित",
+        icon: "🧺",
+        image: "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        id: "prod-6",
+        name: "जंगली हर्रा-बहेड़ा-आंवला चूर्ण (त्रिफला)",
+        description: "शहडोल के वनों से एकत्रित ताजी वनोपज द्वारा तैयार पारंपरिक आयुर्वेदिक चूर्ण।",
+        price: 130,
+        unit: "प्रति 250 ग्राम",
+        category: "वन उपज",
+        badge: "आयुर्वेदिक",
+        icon: "🌿",
+        image: "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        id: "prod-7",
+        name: "शुद्ध महुआ लिक्विड जैम / सिरप",
+        description: "बिना शर्करा के महुआ के प्राकृतिक रस से बना गैर-मादक प्राकृतिक स्वीटनर एवं शरबत।",
+        price: 220,
+        unit: "प्रति बोतल (350ml)",
+        category: "महुआ उत्पाद",
+        badge: "100% प्राकृतिक",
+        icon: "🍯",
+        image: "https://images.unsplash.com/photo-1576186726580-a816e8b12896?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        id: "prod-8",
+        name: "पारंपरिक मिट्टी का कलश / दीया सेट",
+        description: "स्थानीय कुम्हारों द्वारा प्राकृतिक चिकनी मिट्टी से गढ़े गए टिकाऊ व सुंदर बर्तन।",
+        price: 190,
+        unit: "प्रति सेट",
+        category: "हस्तशिल्प",
+        badge: "पारंपरिक शिल्प",
+        icon: "🏺",
+        image: "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80"
+      }
+    ];
+
+    // APPLICATION STATE
+    let cart = []; // Array of { product: {...}, quantity: number }
+    let currentCategory = 'all';
+    let searchQuery = '';
+
+    // Quantity selectors in the product cards before adding to cart
+    const cardQuantities = {};
+    PRODUCTS.forEach(p => { cardQuantities[p.id] = 1; });
+
+    // DOM ELEMENTS
+    const productGrid = document.getElementById('product-grid');
+    const noProductsView = document.getElementById('no-products-view');
+    const searchInput = document.getElementById('product-search-input');
+    const clearSearchBtn = document.getElementById('clear-search-btn');
+    const categoryButtons = document.querySelectorAll('.category-btn');
+    const resetFiltersBtn = document.getElementById('reset-filters-btn');
+
+    // Cart Drawer Elements
+    const cartDrawerContainer = document.getElementById('cart-drawer-container');
+    const cartBackdrop = document.getElementById('cart-backdrop');
+    const cartPanel = document.getElementById('cart-panel');
+    const openCartBtn = document.getElementById('open-cart-btn');
+    const closeCartBtn = document.getElementById('close-cart-btn');
+    const cartShopNowBtn = document.getElementById('cart-shop-now-btn');
+    const cartItemsWrapper = document.getElementById('cart-items-wrapper');
+    const emptyCartView = document.getElementById('empty-cart-view');
+    const cartCheckoutFooter = document.getElementById('cart-checkout-footer');
+    const cartSubtotalPrice = document.getElementById('cart-subtotal-price');
+    const cartTotalPrice = document.getElementById('cart-total-price');
+    const headerCartCount = document.getElementById('header-cart-count');
+    const headerCartTotal = document.getElementById('header-cart-total');
+    const drawerItemsCountBadge = document.getElementById('drawer-items-count-badge');
+
+    // Checkout Form Elements
+    const custName = document.getElementById('cust-name');
+    const custPhone = document.getElementById('cust-phone');
+    const custAddress = document.getElementById('cust-address');
+    const custCity = document.getElementById('cust-city');
+    const custPincode = document.getElementById('cust-pincode');
+    const formErrorNotice = document.getElementById('form-error-notice');
+    const whatsappCheckoutBtn = document.getElementById('whatsapp-checkout-btn');
+
+    // Toast
+    const toast = document.getElementById('toast-notification');
+    const toastMessage = document.getElementById('toast-message');
+    let toastTimeout;
+
+    // Mobile Navigation
+    const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+    const mobileNavMenu = document.getElementById('mobile-nav-menu');
+    const mobileLinks = document.querySelectorAll('.mobile-link');
+
+    // Feedback Form
+    const feedbackForm = document.getElementById('feedback-form');
+
+    // INIT APP
+    function init() {
+      renderProducts();
+      updateCartUI();
+      setupEventListeners();
+      document.getElementById('current-year').textContent = new Date().getFullYear();
+    }
+
+    // RENDER PRODUCTS GRID
+    function renderProducts() {
+      const filtered = PRODUCTS.filter(prod => {
+        const matchesCategory = (currentCategory === 'all' || prod.category === currentCategory);
+        const term = searchQuery.toLowerCase().trim();
+        const matchesSearch = !term || 
+          prod.name.toLowerCase().includes(term) || 
+          prod.description.toLowerCase().includes(term) || 
+          prod.category.toLowerCase().includes(term);
+        return matchesCategory && matchesSearch;
+      });
+
+      if (filtered.length === 0) {
+        productGrid.innerHTML = '';
+        noProductsView.classList.remove('hidden');
+        return;
+      }
+
+      noProductsView.classList.add('hidden');
+
+      productGrid.innerHTML = filtered.map(prod => {
+        const currentQty = cardQuantities[prod.id] || 1;
+        return `
+          <div class="bg-white rounded-2xl border border-warm-border overflow-hidden shadow-xs hover:shadow-xl transition-all duration-300 flex flex-col group" id="card-${prod.id}">
+            
+            <!-- IMAGE & BADGE CONTAINER -->
+            <div class="relative h-48 w-full bg-warm-sand overflow-hidden">
+              <img src="${prod.image}" alt="${prod.name}" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\\'http://www.w3.org/2000/svg\\' viewBox=\\'0 0 400 300\\' fill=\\'%23f3ece1\\'><rect width=\\'400\\' height=\\'300\\'/><text x=\\'50%\\' y=\\'50%\\' font-size=\\'40\\' dominant-baseline=\\'middle\\' text-anchor=\\'middle\\' fill=\\'%231b4d3e\\'>${encodeURIComponent(prod.name)}</text></svg>'">
+              
+              <div class="absolute top-3 left-3 flex flex-wrap gap-1">
+                <span class="px-2.5 py-1 rounded-full text-[11px] font-bold bg-brand-700/90 text-white backdrop-blur-xs shadow-xs">
+                  ${prod.category}
+                </span>
+                ${prod.badge ? `
+                  <span class="px-2 py-0.5 rounded-full text-[10px] font-bold bg-warm-amber text-brand-900 shadow-xs">
+                    ${prod.badge}
+                  </span>
+                ` : ''}
+              </div>
+
+              <div class="absolute bottom-2 right-2 bg-white/90 backdrop-blur-md px-2 py-1 rounded-lg text-xs font-semibold text-gray-700 shadow-xs">
+                ${prod.unit}
+              </div>
+            </div>
+
+            <!-- CARD CONTENT -->
+            <div class="p-5 flex-1 flex flex-col justify-between space-y-4">
+              <div>
+                <h3 class="text-base sm:text-lg font-bold text-brand-900 group-hover:text-brand-700 transition-colors line-clamp-1">
+                  ${prod.name}
+                </h3>
+                <p class="text-xs text-gray-600 mt-1 line-clamp-2 leading-relaxed">
+                  ${prod.description}
+                </p>
+              </div>
+
+              <!-- PRICE & UNIT -->
+              <div class="pt-2 border-t border-warm-border/60 flex items-baseline justify-between">
+                <div>
+                  <span class="text-xs text-gray-500">मूल्य:</span>
+                  <div class="text-xl font-extrabold text-brand-700">
+                    ₹${prod.price}
+                    <span class="text-xs font-normal text-gray-500">/${prod.unit.replace('प्रति ', '')}</span>
+                  </div>
+                </div>
+                <div class="text-[11px] font-medium text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200">
+                  उपलब्ध
+                </div>
+              </div>
+
+              <!-- QUANTITY CONTROLS & ADD TO CART -->
+              <div class="space-y-2.5 pt-1">
+                <div class="flex items-center justify-between bg-warm-sand/60 p-1.5 rounded-xl border border-warm-border">
+                  <span class="text-xs font-bold text-gray-600 pl-2">मात्रा:</span>
+                  <div class="flex items-center gap-2">
+                    <button onclick="changeCardQuantity('${prod.id}', -1)" class="w-7 h-7 rounded-lg bg-white hover:bg-gray-100 text-gray-700 flex items-center justify-center font-bold text-sm shadow-2xs border border-warm-border focus:outline-hidden" aria-label="मात्रा कम करें">−</button>
+                    <span id="qty-display-${prod.id}" class="w-8 text-center font-bold text-sm text-brand-900">${currentQty}</span>
+                    <button onclick="changeCardQuantity('${prod.id}', 1)" class="w-7 h-7 rounded-lg bg-white hover:bg-gray-100 text-gray-700 flex items-center justify-center font-bold text-sm shadow-2xs border border-warm-border focus:outline-hidden" aria-label="मात्रा बढ़ाएं">+</button>
+                  </div>
+                </div>
+
+                <button onclick="addToCart('${prod.id}')" class="w-full flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl bg-brand-700 hover:bg-brand-800 active:scale-98 text-white font-bold text-sm shadow-xs transition-all focus:outline-hidden">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"/></svg>
+                  <span>कार्ट में जोड़ें</span>
+                </button>
+              </div>
+
+            </div>
+
+          </div>
+        `;
+      }).join('');
+    }
+
+    // QUANTITY SELECTOR ON PRODUCT CARD
+    window.changeCardQuantity = function(productId, delta) {
+      let qty = cardQuantities[productId] || 1;
+      qty += delta;
+      if (qty < 1) qty = 1;
+      cardQuantities[productId] = qty;
+      const display = document.getElementById(`qty-display-${productId}`);
+      if (display) display.textContent = qty;
+    };
+
+    // ADD PRODUCT TO CART
+    window.addToCart = function(productId) {
+      const product = PRODUCTS.find(p => p.id === productId);
+      if (!product) return;
+
+      const qtyToAdd = cardQuantities[productId] || 1;
+      const existingItem = cart.find(item => item.product.id === productId);
+
+      if (existingItem) {
+        existingItem.quantity += qtyToAdd;
+      } else {
+        cart.push({
+          product: product,
+          quantity: qtyToAdd
+        });
+      }
+
+      // Reset card counter back to 1
+      cardQuantities[productId] = 1;
+      const display = document.getElementById(`qty-display-${productId}`);
+      if (display) display.textContent = 1;
+
+      updateCartUI();
+      showToast(`'${product.name}' (${qtyToAdd}) कार्ट में जोड़ा गया! 🛒`);
+    };
+
+    // CART QUANTITY CONTROLS (INSIDE CART DRAWER)
+    window.updateCartItemQty = function(productId, delta) {
+      const item = cart.find(i => i.product.id === productId);
+      if (!item) return;
+
+      item.quantity += delta;
+      if (item.quantity <= 0) {
+        cart = cart.filter(i => i.product.id !== productId);
+      }
+      updateCartUI();
+    };
+
+    // REMOVE ITEM COMPLETELY FROM CART
+    window.removeCartItem = function(productId) {
+      const item = cart.find(i => i.product.id === productId);
+      const name = item ? item.product.name : 'उत्पाद';
+      cart = cart.filter(i => i.product.id !== productId);
+      updateCartUI();
+      showToast(`${name} कार्ट से हटाया गया`, '🗑️');
+    };
+
+    // UPDATE CART UI & CALCULATIONS
+    function updateCartUI() {
+      const totalItemsCount = cart.reduce((sum, item) => sum + item.quantity, 0);
+      const totalPrice = cart.reduce((sum, item) => sum + (item.product.price * item.quantity), 0);
+
+      // Header Updates
+      headerCartCount.textContent = totalItemsCount;
+      headerCartTotal.textContent = `₹${totalPrice}`;
+      drawerItemsCountBadge.textContent = `${totalItemsCount} वस्तुएँ`;
+
+      // Subtotal & Total inside drawer
+      cartSubtotalPrice.textContent = `₹${totalPrice}`;
+      cartTotalPrice.textContent = `₹${totalPrice}`;
+
+      // Toggle Empty vs Filled View
+      if (cart.length === 0) {
+        cartItemsWrapper.classList.add('hidden');
+        cartCheckoutFooter.classList.add('hidden');
+        emptyCartView.classList.remove('hidden');
+      } else {
+        emptyCartView.classList.add('hidden');
+        cartItemsWrapper.classList.remove('hidden');
+        cartCheckoutFooter.classList.remove('hidden');
+
+        // Render Cart Items
+        cartItemsWrapper.innerHTML = cart.map(item => {
+          const itemSubtotal = item.product.price * item.quantity;
+          return `
+            <div class="bg-warm-sand/30 p-3.5 rounded-2xl border border-warm-border flex gap-3 items-center">
+              <div class="w-14 h-14 rounded-xl bg-warm-sand overflow-hidden shrink-0 border border-warm-border">
+                <img src="${item.product.image}" alt="${item.product.name}" class="w-full h-full object-cover">
+              </div>
+
+              <div class="flex-1 min-w-0">
+                <h4 class="text-xs font-bold text-brand-900 truncate">${item.product.name}</h4>
+                <div class="text-[11px] text-gray-500">₹${item.product.price} / ${item.product.unit.replace('प्रति ', '')}</div>
+                <div class="text-xs font-extrabold text-brand-700 mt-1">₹${itemSubtotal}</div>
+              </div>
+
+              <!-- Quantity Controls in Cart -->
+              <div class="flex flex-col items-end gap-1.5 shrink-0">
+                <button onclick="removeCartItem('${item.product.id}')" class="text-gray-400 hover:text-red-600 text-xs p-1" title="हटाएं">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/></svg>
+                </button>
+                <div class="flex items-center gap-1.5 bg-white px-2 py-0.5 rounded-lg border border-warm-border">
+                  <button onclick="updateCartItemQty('${item.product.id}', -1)" class="text-gray-600 font-bold text-xs hover:text-brand-700" aria-label="एक घटाएं">−</button>
+                  <span class="w-5 text-center text-xs font-bold text-brand-900">${item.quantity}</span>
+                  <button onclick="updateCartItemQty('${item.product.id}', 1)" class="text-gray-600 font-bold text-xs hover:text-brand-700" aria-label="एक बढ़ाएं">+</button>
+                </div>
+              </div>
+            </div>
+          `;
+        }).join('');
+      }
+    }
+
+    // OPEN / CLOSE CART DRAWER
+    function openCart() {
+      cartDrawerContainer.classList.remove('opacity-0', 'pointer-events-none');
+      cartDrawerContainer.classList.add('opacity-100');
+      cartPanel.classList.remove('translate-x-full');
+      document.body.classList.add('overflow-hidden');
+    }
+
+    function closeCart() {
+      cartPanel.classList.add('translate-x-full');
+      cartDrawerContainer.classList.add('opacity-0', 'pointer-events-none');
+      cartDrawerContainer.classList.remove('opacity-100');
+      document.body.classList.remove('overflow-hidden');
+    }
+
+    // TOAST DISPLAY HELPER
+    function showToast(message, icon = '✅') {
+      clearTimeout(toastTimeout);
+      toastMessage.textContent = message;
+      document.getElementById('toast-icon').textContent = icon;
+      toast.classList.remove('opacity-0', '-translate-y-10', 'pointer-events-none');
+      toast.classList.add('opacity-100', 'translate-y-0');
+
+      toastTimeout = setTimeout(() => {
+        toast.classList.add('opacity-0', '-translate-y-10', 'pointer-events-none');
+        toast.classList.remove('opacity-100', 'translate-y-0');
+      }, 3000);
+    }
+
+    // EVENT LISTENERS CONFIGURATION
+    function setupEventListeners() {
+      // Cart Open / Close
+      openCartBtn.addEventListener('click', openCart);
+      closeCartBtn.addEventListener('click', closeCart);
+      cartBackdrop.addEventListener('click', closeCart);
+      cartShopNowBtn.addEventListener('click', () => {
+        closeCart();
+        document.getElementById('products-section').scrollIntoView({ behavior: 'smooth' });
+      });
+
+      // Mobile Menu
+      mobileMenuToggle.addEventListener('click', () => {
+        mobileNavMenu.classList.toggle('hidden');
+      });
+      mobileLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          mobileNavMenu.classList.add('hidden');
+        });
+      });
+
+      // Category Filter Buttons
+      categoryButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          categoryButtons.forEach(b => {
+            b.classList.remove('active', 'bg-brand-700', 'text-white');
+            b.classList.add('bg-white', 'text-gray-700');
+          });
+          btn.classList.add('active', 'bg-brand-700', 'text-white');
+          btn.classList.remove('bg-white', 'text-gray-700');
+
+          currentCategory = btn.getAttribute('data-category');
+          renderProducts();
+        });
+      });
+
+      // Search Inputs
+      searchInput.addEventListener('input', (e) => {
+        searchQuery = e.target.value;
+        if (searchQuery.length > 0) {
+          clearSearchBtn.classList.remove('hidden');
+        } else {
+          clearSearchBtn.classList.add('hidden');
+        }
+        renderProducts();
+      });
+
+      clearSearchBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        searchQuery = '';
+        clearSearchBtn.classList.add('hidden');
+        renderProducts();
+      });
+
+      resetFiltersBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        searchQuery = '';
+        clearSearchBtn.classList.add('hidden');
+        currentCategory = 'all';
+        categoryButtons.forEach(b => {
+          b.classList.remove('active', 'bg-brand-700', 'text-white');
+          b.classList.add('bg-white', 'text-gray-700');
+          if (b.getAttribute('data-category') === 'all') {
+            b.classList.add('active', 'bg-brand-700', 'text-white');
+            b.classList.remove('bg-white', 'text-gray-700');
+          }
+        });
+        renderProducts();
+      });
+
+      // WHATSAPP CHECKOUT INTEGRATION
+      whatsappCheckoutBtn.addEventListener('click', handleWhatsAppCheckout);
+
+      // Feedback Form Submission via WhatsApp
+      feedbackForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const fName = document.getElementById('feedback-name').value.trim() || 'शुभचिंतक';
+        const fPhone = document.getElementById('feedback-phone').value.trim() || 'उल्लेखित नहीं';
+        const fMsg = document.getElementById('feedback-message').value.trim();
+
+        if (!fMsg) return;
+
+        const text = `नमस्ते GramBazaar!\n\nमैंने GramBazaar वेबसाइट देखी और मेरी राय/सुझाव निम्नलिखित है:\n\nनाम: ${fName}\nमोबाइल: ${fPhone}\nसुझाव/उत्पाद मांग:\n${fMsg}\n\nधन्यवाद!\nGramBazaar उपयोगकर्ता`;
+        
+        const url = `https://wa.me/${SELLER_WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
+        window.open(url, '_blank');
+        feedbackForm.reset();
+        showToast('सुझाव WhatsApp पर भेजा जा रहा है!', '💬');
+      });
+    }
+
+    // WHATSAPP ORDER VALIDATION & DISPATCH
+    function handleWhatsAppCheckout() {
+      // 1. Verify Cart has items
+      if (cart.length === 0) {
+        showToast('कृपया पहले कार्ट में कम से कम एक उत्पाद जोड़ें।', '⚠️');
+        return;
+      }
+
+      // 2. Validate Customer Details
+      const name = custName.value.trim();
+      const phone = custPhone.value.trim();
+      const address = custAddress.value.trim();
+      const city = custCity.value.trim();
+      const pincode = custPincode.value.trim() || 'लागू नहीं';
+
+      // Phone format validation (simple 10-digit Indian mobile check)
+      const phoneDigits = phone.replace(/\D/g, '');
+      const isPhoneValid = phoneDigits.length === 10;
+
+      if (!name || !isPhoneValid || !address || !city) {
+        formErrorNotice.classList.remove('hidden');
+        // Scroll form to notice
+        formErrorNotice.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        return;
+      }
+
+      formErrorNotice.classList.add('hidden');
+
+      // 3. Generate Formatted Hindi Order Summary
+      let itemsDetailsText = '';
+      let totalAmount = 0;
+
+      cart.forEach((item, index) => {
+        const itemTotal = item.product.price * item.quantity;
+        totalAmount += itemTotal;
+        itemsDetailsText += `${index + 1}. ${item.product.name} × ${item.quantity} = ₹${itemTotal}\n`;
+      });
+
+      const orderMessage = `नमस्ते GramBazaar!
+
+मुझे निम्नलिखित उत्पाद ऑर्डर करने हैं।
+
+ग्राहक का नाम: ${name}
+मोबाइल नंबर: ${phone}
+पता: ${address}
+शहर/गाँव: ${city}
+पिन कोड: ${pincode}
+
+ऑर्डर विवरण:
+${itemsDetailsText.trim()}
+
+कुल ऑर्डर राशि: ₹${totalAmount}
+
+कृपया मेरे ऑर्डर की पुष्टि करें और डिलीवरी की जानकारी दें।
+
+धन्यवाद!
+GramBazaar ग्राहक`;
+
+      // 4. Open WhatsApp via wa.me URL
+      const whatsappUrl = `https://wa.me/${SELLER_WHATSAPP_NUMBER}?text=${encodeURIComponent(orderMessage)}`;
+      
+      // Let customer review and send in WhatsApp
+      window.open(whatsappUrl, '_blank');
+      
+      showToast('WhatsApp पर ऑर्डर विवरण तैयार किया गया!', '🚀');
+    }
+
+    // Run on DOM load
+    document.addEventListener('DOMContentLoaded', init);
+  </script>
+</body>
+</html>
